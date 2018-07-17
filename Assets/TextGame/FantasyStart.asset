@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Name: FantasyStart
   m_EditorClassIdentifier: 
   storyText: I selected the Fantasy Land
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: 237e6f658cc58ec42839001548b6d367, type: 2}
+  - {fileID: 11400000, guid: d4d511f9ff380334982dcf4de0d6ff47, type: 2}
