@@ -22,6 +22,7 @@ public class AdventureGame : MonoBehaviour
     {
         ManageState();
 	}
+    // test
 
     private void ManageState()
     {
