@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/NumberWiz.unity
-    guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/TextGame.unity
-    guid: 5157bb9cfedb11d4883d1f4a74ccfec5
+    path: Assets/Scenes/NumberUI/NumberUIMenu.unity
+    guid: 1e12e347133ff104eae318f9f0601d2d
+  - enabled: 1
+    path: Assets/Scenes/NumberUI/NumberUIGame.unity
+    guid: 90c7d16e9c17d804aa385b47eb871b97
+  - enabled: 1
+    path: Assets/Scenes/NumberUI/NumberUIEnd.unity
+    guid: d8a86be17142a1e4db1c7e7b7b3615c4
   m_configObjects: {}
