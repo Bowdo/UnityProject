@@ -18,7 +18,6 @@ public class AdventureGame : MonoBehaviour
         textComponent.text = state.GetStateStory();
 	}
 	
-
 	void Update ()
     {
         ManageState();
@@ -27,10 +26,12 @@ public class AdventureGame : MonoBehaviour
     private void ManageState()
     {
         var nextStates = state.GetNextStates();
+
         for (int i = 0; i < nextStates.Length; i++)
         {
             if (Input.GetKeyDown(KeyCode.Alpha1 + i))
             {
+                Debug.Log(i);
                 state = nextStates[i];
                 textComponent.text = state.GetStateStory();
             }
