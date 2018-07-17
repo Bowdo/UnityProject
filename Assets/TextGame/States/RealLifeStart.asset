@@ -9,9 +9,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa16999a1c8bdce4cb2add456ef6ca58, type: 3}
-  m_Name: FantasyStart
+  m_Name: RealLifeStart
   m_EditorClassIdentifier: 
-  storyText: I selected the Fantasy Land
+  storyText: 'I selected real life
+
+
+    1. Go back to the start
+
+    2. Go to Fantasy Land'
   nextStates:
   - {fileID: 11400000, guid: 237e6f658cc58ec42839001548b6d367, type: 2}
-  - {fileID: 11400000, guid: d4d511f9ff380334982dcf4de0d6ff47, type: 2}
+  - {fileID: 11400000, guid: 588d7d6c0567f0b498f16e4bd3ef380b, type: 2}
