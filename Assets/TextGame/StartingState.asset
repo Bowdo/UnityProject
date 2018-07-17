@@ -14,3 +14,6 @@ MonoBehaviour:
   storyText: "You wake up from a loud bang, you yourself in a empty white room with
     2 doors. The doors are labeled as Fantasy Land and Real World\r\n\r\n1: Fantasy
     Land\r\n2: Real World"
+  nextStates:
+  - {fileID: 11400000, guid: 588d7d6c0567f0b498f16e4bd3ef380b, type: 2}
+  - {fileID: 11400000, guid: d4d511f9ff380334982dcf4de0d6ff47, type: 2}
