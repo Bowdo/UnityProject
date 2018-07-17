@@ -8,9 +8,12 @@ public class AdventureGame : MonoBehaviour {
     [SerializeField] Text textComponent;
     [SerializeField] State startingState;
 
+    State state;
+
 	void Start ()
     {
-        textComponent.text = ("You wake up from a loud bang, you yourself in a empty white room with 2 doors. The doors are labeled as Fantasy Land and Real World");
+        state = startingState;
+        textComponent.text = state.GetStateStory();
 	}
 	
 
